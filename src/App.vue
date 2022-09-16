@@ -4,11 +4,12 @@
 import addSub from './components/addSub.vue'
 import Mouse from './components/Mouse.vue'
 import Fetch from './components/Fetch.vue'
+import Store from './components/Storge.vue'
 </script>
 
 <template>
   <div>
-    <Fetch />
+    <Store />
   </div>
 </template>
 
