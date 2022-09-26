@@ -24,5 +24,6 @@ export function useStorage<T extends (string | number | boolean | object | null)
 
   const data = (shallow ? shallowRefs : refs) as RemovableRef<T>
 
+
   return data
 }
